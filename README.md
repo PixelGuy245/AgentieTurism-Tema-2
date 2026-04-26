@@ -1,1 +1,4 @@
 Tema 2 POO - Agentie de Turism continuare
+    Proiectul implementează un sistem de gestiune pentru o agenție de turism, utilizând concepte de C++ și Programare Orientată pe Obiecte. Arhitectura este construită în jurul unei ierarhii polimorfice, având ca bază clasa abstractă Serviciu, din care derivă tipuri specifice precum Cazare, Excursie și Zbor. Sistemul utilizează funcții virtuale pure pentru a personaliza calculul costurilor și afișarea detaliilor, oferind flexibilitate în adăugarea de noi tipuri de pachete turistice.
+    Clasa Tranzactie integrează obiecte de tip Turist și administrează pointeri către clasa de bază prin mecanismul de Deep Copy (clonare virtuală).
+    Proiectul pune accent pe robustețe prin utilizarea unei ierarhii proprii de excepții derivate din std::exception, care validează datele în constructori. În final, utilizarea dynamic_cast permite accesarea funcționalităților specifice ale claselor derivate.
